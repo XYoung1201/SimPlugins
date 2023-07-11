@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by et8 (et8) -->
+<ClassSet>
+	<EntityModelList>
+		<EntityModel Caption="XXX">
+			<EntityModelID>070101002</EntityModelID>
+			<EntityModelSort>8163</EntityModelSort>
+			<EntityName>XXXX</EntityName>
+			<EntityType>型号</EntityType>
+			<InitAttribute>
+				<Att AttName="工作模式" AttDataType="Enum" AttDef="eXXXX" AttUnit="1:嘻嘻嘻模式;2:嘻嘻嘻嘻模式" AttDefaultValue="1" AttRange="" AttKind="1" AttMaxNum="" AttNote="0" ReadOnly="0" ParaUnVisible="0"/>
+			</InitAttribute>
+			<AttributeList>
+				<Att AttName="是否使用设置参数" AttDataType="Enum" AttDef="bUsePara" AttUnit="0:不是;1:是;" AttDefaultValue="0" AttRange="0,1" AttKind="1" AttMaxNum="" AttNote="" ReadOnly="0" ParaUnVisible="0"/>
+				<Att AttName="天线" AttDataType="Complex" AttDef="Antenna" AttUnit="" AttDefaultValue="" AttRange="" AttKind="1" AttMaxNum="" AttNote="" ReadOnly="0" ParaUnVisible="0">
+					<AttDetail AttName="天线序号" AttDataType="string" AttDef="AntennaNo" AttUnit="" AttDefaultValue="1" AttRange="" AttKind="1+" AttMaxNum="" AttNote="" ReadOnly="1" ParaUnVisible="1"/>
+				</Att>
+			</AttributeList>
+			<MethodList>
+				<Method>
+					<MethodName>ZoneTask</MethodName>
+					<MethodDef>任务区域</MethodDef>
+					<IsAllTime>0</IsAllTime>
+					<Att AttName="区域中心位置信息" AttDataType="Complex" AttDef="sPostion" AttUnit="" AttDefaultValue="" AttRange="" AttKind="1" AttMaxNum="" AttNote="区域的中心位置" ReadOnly="0" ParaUnVisible="0">
+						<AttDetail AttName="中心经度" AttDataType="double" AttDef="dCentorLon" AttUnit="度" AttRange="-180,180" AttDefaultValue="0" AttKind="1" ReadOnly="0" ParaUnVisible="0"/>
+						<AttDetail AttName="中心纬度" AttDataType="double" AttDef="dCentorLat" AttUnit="度" AttRange="-90,90" AttDefaultValue="0" AttKind="1" ReadOnly="0" ParaUnVisible="0"/>
+						<AttDetail AttName="中心高度" AttDataType="float" AttDef="fCentorHeight" AttUnit="米" AttRange="0,1000000" AttDefaultValue="0" AttKind="1" ReadOnly="0" ParaUnVisible="0"/>
+					</Att>
+				</Method>
+			</MethodList>
+			<Relation/> 
+		</EntityModel>
+		<EntityModel Caption="XXX">
+			<EntityModelID>070101002</EntityModelID>
+			<EntityModelSort>8163</EntityModelSort>
+			<EntityName>XXXX</EntityName>
+			<EntityType>型号</EntityType>
+			<InitAttribute>
+				<Att AttName="工作模式" AttDataType="Enum" AttDef="eXXXX" AttUnit="1:嘻嘻嘻模式;2:嘻嘻嘻嘻模式" AttDefaultValue="1" AttRange="" AttKind="1" AttMaxNum="" AttNote="0" ReadOnly="0" ParaUnVisible="0"/>
+			</InitAttribute>
+			<AttributeList>
+				<Att AttName="是否使用设置参数" AttDataType="Enum" AttDef="bUsePara" AttUnit="0:不是;1:是;" AttDefaultValue="0" AttRange="0,1" AttKind="1" AttMaxNum="" AttNote="" ReadOnly="0" ParaUnVisible="0"/>
+				<Att AttName="天线" AttDataType="Complex" AttDef="Antenna" AttUnit="" AttDefaultValue="" AttRange="" AttKind="1" AttMaxNum="" AttNote="" ReadOnly="0" ParaUnVisible="0">
+					<AttDetail AttName="天线序号" AttDataType="string" AttDef="AntennaNo" AttUnit="" AttDefaultValue="1" AttRange="" AttKind="1+" AttMaxNum="" AttNote="" ReadOnly="1" ParaUnVisible="1"/>
+				</Att>
+			</AttributeList>
+			<MethodList>
+				<Method>
+					<MethodName>ZoneTask</MethodName>
+					<MethodDef>任务区域</MethodDef>
+					<IsAllTime>0</IsAllTime>
+					<Att AttName="区域中心位置信息" AttDataType="Complex" AttDef="sPostion" AttUnit="" AttDefaultValue="" AttRange="" AttKind="1" AttMaxNum="" AttNote="区域的中心位置" ReadOnly="0" ParaUnVisible="0">
+						<AttDetail AttName="中心经度" AttDataType="double" AttDef="dCentorLon" AttUnit="度" AttRange="-180,180" AttDefaultValue="0" AttKind="1" ReadOnly="0" ParaUnVisible="0"/>
+						<AttDetail AttName="中心纬度" AttDataType="double" AttDef="dCentorLat" AttUnit="度" AttRange="-90,90" AttDefaultValue="0" AttKind="1" ReadOnly="0" ParaUnVisible="0"/>
+						<AttDetail AttName="中心高度" AttDataType="float" AttDef="fCentorHeight" AttUnit="米" AttRange="0,1000000" AttDefaultValue="0" AttKind="1" ReadOnly="0" ParaUnVisible="0"/>
+					</Att>
+				</Method>
+			</MethodList>
+			<Relation/>
+		</EntityModel>
+	</EntityModelList>
+	<ResourceModelList>
+	</ResourceModelList>
+</ClassSet>

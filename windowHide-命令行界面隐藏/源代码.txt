@@ -1,0 +1,16 @@
+#include <windows.h>
+#include <iostream>
+#include <map>
+using namespace std;
+int main()
+{
+    map <char*,HWND> p;
+    char a[100];
+    cin>>a;
+    HWND hwnd=FindWindow(NULL,a);
+    p.insert(make_pair(a,hwnd));
+    ShowWindow(p[a],SW_HIDE);
+    Sleep(10000); //Õ£¡Ù5√Î
+    ShowWindow(hwnd,SW_SHOW);
+    return 0;
+}
