@@ -1,5 +1,4 @@
-﻿#include "stdafx.h"
-#include "easyWrite.h"
+﻿#include "easyWrite.h"
 
 easyWrite::easyWrite()
 {
@@ -68,8 +67,8 @@ easyWrite& operator<< (easyWrite& ew, const char* a) {
 		return ew;
 	for (struct dataNodeRecord* iter = ew.dataNode->first; iter != NULL; iter = iter->next) {
 		if(iter->dataName == NULL){
-			iter->dataName = new char[strlen(a)];
-			strcpy(iter->dataName,a);
+			iter->dataName = new char[strlen(a)+1];
+			strcpy_s(iter->dataName,strlen(a)+1, a);
 			break;
 		}
 	}
