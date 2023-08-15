@@ -88,8 +88,8 @@ public:
 			for(int i=0;i<data_num;i++){
 				file >> data_;
 				((double*)index)[i]=data_;
-				total_num--;
 			}
+			total_num--;
 			if (file.eof())
 				break;
 			if (total_num == 0)
